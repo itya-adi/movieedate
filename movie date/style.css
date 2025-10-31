@@ -1,0 +1,247 @@
+ body{
+    background-color: #F39F9F;
+ }
+ 
+ .heart-img {
+    width: 150px;  /* smaller size */
+    height: 150px;
+    object-fit: cover;
+    clip-path: path("M75 135 L17 77 C-10 50 10 15 45 25 C60 30 75 45 75 45 C75 45 90 30 105 25 C140 15 160 50 133 77 L75 135 Z");
+    -webkit-clip-path: path("M75 135 L17 77 C-10 50 10 15 45 25 C60 30 75 45 75 45 C75 45 90 30 105 25 C140 15 160 50 133 77 L75 135 Z");
+  }
+
+  .index-text {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#index-button{
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+#heart-1{
+    position: fixed;
+    top: 15px;
+    left: 865px;
+}
+
+#heart-2{
+    position: fixed;
+    bottom: 15px;
+    left: 865px;
+}
+
+#heart-3{
+    position: fixed;
+    top: 390px;
+    left: 200px;
+}
+
+#heart-4{
+    position: fixed;
+    top: 390px;
+    right: 200px;
+}
+
+#heart-5{
+    position: fixed;
+    top: 190px;
+    left: 550px;
+}
+
+#heart-6{
+    position: fixed;
+    top: 190px;
+    right: 550px;
+}
+
+#heart-7{
+    position: fixed;
+    bottom: 190px;
+    left: 550px;
+}
+
+#heart-8{
+    position: fixed;
+    bottom: 190px;
+    right: 550px;
+}
+
+.intro {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#intro-button{
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+.proposal {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#proposal-button{
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+.reason1 {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#r1-button{
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+.reason2 {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#r2-button{
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+.reason3 {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#r3-button{
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+.ask {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#ask-button{
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+.yes {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#yes-image{
+    height: 350px;
+    border-radius: 400px
+}
+
+.no {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#yesonno3-button{
+    font-size: 100px;
+    color:#FFECC0;
+    background-color: #B95E82;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 200px;
+}
+
+.no3 {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
